@@ -1,6 +1,0 @@
-# build output and binaries stay out of git
-build/
-*.jar
-.gradle/
-.idea/
-.vscode/
