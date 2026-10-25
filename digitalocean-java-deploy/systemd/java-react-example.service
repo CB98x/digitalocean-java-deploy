@@ -1,0 +1,12 @@
+[Unit]
+Description=Java React example app
+After=network.target
+
+[Service]
+User=nana
+WorkingDirectory=/home/nana
+ExecStart=/usr/bin/java -jar /home/nana/java-react-example.jar
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
